@@ -1,45 +1,3 @@
-<script lang="ts">
-import { defineComponent } from "vue";
-
-export default defineComponent({
-  name: "App",
-});
-</script>
-
-<template>
-  <div class="spfx-landing-container">
-    <header class="hero-section">
-      <h1 class="hero-title">Your AI-Powered SharePoint Webpart Studio</h1>
-      <p class="hero-description">Unlock the future of SharePoint development with our cutting-edge SPFx template. Simply describe your desired webpart to this AI, and watch it come to life with intelligent code generation, ready for instant deployment.</p>
-    </header>
-
-    <section class="features-section">
-      <div class="feature-card">
-        <h3 class="card-title">Ready-to-Use SPFx Template</h3>
-        <p class="card-description">Jumpstart your projects with a pre-configured SharePoint Framework template, designed for seamless integration and performance.</p>
-      </div>
-      <div class="feature-card">
-        <h3 class="card-title">AI-Driven Webpart Generation</h3>
-        <p class="card-description">Simply describe your desired webpart to this AI, and watch it come to life with intelligent code generation.</p>
-      </div>
-      <div class="feature-card">
-        <h3 class="card-title">Prompt-Based Development</h3>
-        <p class="card-description">No more manual coding. Generate complex SharePoint webparts effortlessly, just by providing clear, concise prompts.</p>
-      </div>
-      <div class="feature-card">
-        <h3 class="card-title">Seamless .sppkg Deployment</h3>
-        <p class="card-description">Once your webpart is perfected, easily generate the .sppkg file for quick and secure deployment to your SharePoint environment.</p>
-      </div>
-    </section>
-
-    <section class="call-to-action-section">
-      <h2 class="cta-heading">Ready to Transform Your SharePoint Experience?</h2>
-      <p class="cta-description">Engage with me now by providing your prompts to begin crafting your next powerful SharePoint webpart. No manual coding required.</p>
-    </section>
-  </div>
-</template>
-
-<style>
 /* Define CSS Variables for the new, softer palette */
 :root {
   --color-background: #F0F4F8; /* Very light blue-grey */
@@ -200,4 +158,3 @@ export default defineComponent({
     grid-template-columns: 1fr;
   }
 }
-</style>
