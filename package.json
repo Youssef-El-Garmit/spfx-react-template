@@ -2,9 +2,9 @@
   "name": "react3-spfx",
   "version": "3.14.0",
   "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "serve": "vite preview"
+    "dev": "tsc && vite",
+    "build": "tsc && vite build",
+    "serve": "tsc && vite preview"
   },
   "dependencies": {
     "react": "17.0.1",
