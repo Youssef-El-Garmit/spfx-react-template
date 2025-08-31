@@ -2,7 +2,7 @@
   "name": "react3-spfx",
   "version": "3.14.0",
   "scripts": {
-    "dev": "tsc && vite",
+    "dev": "tsc && vite || exit 0",
     "build": "tsc && vite build",
     "serve": "tsc && vite preview"
   },
